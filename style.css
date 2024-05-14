@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  width:100%;
+  background: url("https://images.pexels.com/photos/21286370/pexels-photo-21286370/free-photo-of-foggy-mountains.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  color: black;
+  padding-left: 150px;
+} 
+
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 430px;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.card-button {
+  background: transparent;
+  color: orange;
+  font-size: 14px;
+  font-weight: 500;
+  width: 98px;
+  height: 38px;
+  border: 1px solid orange;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+}
+
+.box1 {
+  background-color: rgb(149, 99, 5);
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 12px;
+  margin-top: 220px;
+}
+
+.box2 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  color: rgb(149, 99, 5);
+  padding: 12px;
+}
+
+.box3 {
+  background-color: rgb(149, 99, 5);
+  width: 33%;
+  text-align: center;
+  color: rgb(244, 242, 239);
+  padding: 12px;
+  margin-right: auto;
+}
+
+.box4 {
+  background-color: white;
+  width: 34%;
+  text-align: left;
+  color: rgb(149, 99, 5);
+  padding: 14px;
+  margin-top: -80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.box5 {
+  background-color: rgb(149, 99, 5);
+  width: 33%;
+  text-align: center;
+  color: white; 
+  padding: 13px;
+  margin-left: auto;
+  margin-top: -83px;
+}
